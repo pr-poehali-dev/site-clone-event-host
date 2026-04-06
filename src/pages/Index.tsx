@@ -9,7 +9,7 @@ const Index = () => {
   const openLightbox = (i: number) => setLightbox(i);
 
   return (
-    <div className="font-montserrat bg-cream text-charcoal overflow-x-hidden">
+    <div className="font-montserrat text-white overflow-x-hidden" style={{ backgroundColor: "#0f0e0b" }}>
       <Lightbox lightbox={lightbox} setLightbox={setLightbox} />
       <TopSections openLightbox={openLightbox} />
       <BottomSections />
